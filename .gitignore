@@ -1,0 +1,13 @@
+# Secrets & local
+.env
+.env.*
+*.local
+
+# Large / unrelated binaries
+*.exe
+*.msi
+
+# Duplicate deploy bundle (same files live in repo root)
+chat-with-16-mbti/
+
+node_modules/
